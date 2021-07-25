@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from './componets/Nav'
+import SearchBox from './componets/SearchBox';
 
 function App() {
   return (
     <div className="App">
-     <h1>Buscador de Filmes</h1>
+     <Nav/>
+     <SearchBox/>
     </div>
   );
 }
