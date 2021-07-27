@@ -9,16 +9,14 @@ const ListFilmes = (props) => {
                 {
                     props.movies.map((movie, i) => {
                         return(
-                            <Movie key={i} image={movie.poster_path}/>
+                            <Movie key={i}  image={movie.poster_path} title={movie.title}/>
                         )
                     })
                 }
-
             </div>
         </div>
     </div>
-    )
-    
+    )    
 }
 
 export default ListFilmes;
